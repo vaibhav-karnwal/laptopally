@@ -1,0 +1,23 @@
+/*special-price template*/
+
+#special-price{
+    .grid .grid-item{
+        margin: 0.5rem;
+        margin-top: 1rem;
+        min-width: 530px;
+        min-height: 230px;
+        max-width: 530px;
+        max-height: 230px;
+        padding:10px 0px;
+    }
+    .grid .grid-item .left{
+        align-items: left;
+        position: absolute;
+    }
+    .grid .grid-item .right{
+        text-align: right;
+        position: relative;
+        margin-left: 270px;
+        padding: 30px 10px;
+    }
+}

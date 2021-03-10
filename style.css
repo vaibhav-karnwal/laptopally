@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/* Sass Template*/
+/* global classes*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes*/
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+/*Color Template*/
+.color-primary {
+  color: "003859";
+}
+
+.color-primary-bg {
+  background-color: "003859";
+}
+
+.color-second {
+  color: "00A5C4";
+}
+
+.color-second-bg {
+  background-color: "00A5C4";
+}
+
+.color-yellow {
+  color: "FFD289";
+}
+
+.color-yellow-bg {
+  background: "FFD289";
+}
+
+/*top sale template*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: black;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: black;
+  margin-left: -5rem;
+  padding: 0 1rem;
+}
+
+/*special-price template*/
+#special-price .grid .grid-item {
+  margin: 0.5rem;
+  margin-top: 1rem;
+  min-width: 530px;
+  min-height: 230px;
+  max-width: 530px;
+  max-height: 230px;
+  padding: 10px 0px;
+}
+#special-price .grid .grid-item .left {
+  align-items: left;
+  position: absolute;
+}
+#special-price .grid .grid-item .right {
+  text-align: right;
+  position: relative;
+  margin-left: 270px;
+  padding: 30px 10px;
+}
+
+/* footer Section Template*/
+#footer .container {
+  max-height: 50px;
+  min-height: 50px;
+}
+#footer .footer-end {
+  margin-top: 130px;
+  decoration: none;
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
